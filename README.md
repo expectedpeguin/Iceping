@@ -1,4 +1,4 @@
-[![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/alexandrosntonas/Icewall?include_prereleases)](https://github.com/alexandrosntonas/Icewall/releases/latest)
+[![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/alexandrosntonas/Iceping?include_prereleases)](https://github.com/alexandrosntonas/Iceping/releases/latest)
 
 # Welcome to Iceping
 
