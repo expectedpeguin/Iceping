@@ -23,11 +23,15 @@ With its advanced TCP handshake technique, Iceping provides accurate response ti
 Iceping can be run from the command line by passing the hostname or IP address, and the port number, as arguments.
 To use Iceping, simply run the following command in your terminal:
 
-```iceping.exe <hostname/ip address> <port>```
+```
+iceping.exe <hostname/ip address> <port>
+```
 
 For example, to ping the host `1.1.1.1` on port `53`, you can use the following command:
 
-```iceping.exe 1.1.1.1 53```
+```
+iceping.exe 1.1.1.1 53
+```
 
 ## Console Output Example
 Here's an example of the console output when running Iceping for the host `1.1.1.1` on port `53`:
