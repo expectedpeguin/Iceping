@@ -35,18 +35,18 @@ For example, to ping the host `1.1.1.1` on port `53`, you can use the following 
 iceping.exe TCP 1.1.1.1  53
 ```
 
-- ``<host>``: Specify the target host, whether it be a hostname (e.g., example.com) or an IP address (0.0.0.0).
-- ``<port>``: Choose any integer between 1 and 65535.
+- ``<host>`` Specify the target host, whether it be a hostname (e.g., example.com) or an IP address (0.0.0.0).
+- ``<port>`` Choose any integer between 1 and 65535.
 
 ## Web HTTP/HTTPS Request
 To perform web HTTP/HTTPS requests, use the command below:
 ```
 icerequest.exe HTTP <url> <method> <rps> <cps>
 ```
-- ``<url>``: The URL of the target endpoint.
-- ``<method>``: The HTTP method to use (e.g., GET, POST, DELETE).
-- ``<rps>``: Number of requests per second (default: 1).
-- ``<cps>``: Number of connections per second (default: 1).
+- ``<url>`` The URL of the target endpoint.
+- ``<method>`` The HTTP method to use (e.g., GET, POST, DELETE).
+- ``<rps>`` Number of requests per second (default: 1).
+- ``<cps>`` Number of connections per second (default: 1).
 
 ## Methods
 - GET
