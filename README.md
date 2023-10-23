@@ -37,6 +37,8 @@ iceping.exe TCP 1.1.1.1  53
 
 - ``<host>`` Specify the target host, whether it be a hostname (e.g., example.com) or an IP address (0.0.0.0).
 - ``<port>`` Choose any integer between 1 and 65535.
+  
+![Animation](https://github.com/expectedpeguin/Iceping/assets/124583215/337d3435-51b8-4953-ad4f-4f86ad416e93)
 
 ## Web HTTP/HTTPS Request
 To perform web HTTP/HTTPS requests, use the command below:
@@ -47,6 +49,8 @@ icerequest.exe HTTP <url> <method> <rps> <cps>
 - ``<method>`` The HTTP method to use (e.g., GET, POST, DELETE).
 - ``<rps>`` Number of requests per second (default: 1).
 - ``<cps>`` Number of connections per second (default: 1).
+  
+![Animation2](https://github.com/expectedpeguin/Iceping/assets/124583215/63709685-e50c-433e-818b-de814f5900a0)
 
 ## HTTP Methods
 - ``GET`` The GET method is used to retrieve a specified resource from the server. It is commonly employed to fetch data without causing any modifications. This method is widely used for safe and idempotent operations, allowing clients to access information without altering the server state.
