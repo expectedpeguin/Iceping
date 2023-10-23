@@ -77,8 +77,6 @@ Iceping is written in C# .NET Framework 4 and is supported by the following vers
 - Windows 8.1
 - Windows 10
 - Windows 11
-- Windows Server 2008 R2
-- Windows Server 2012
 - Windows Server 2012 R2
 - Windows Server 2016
 - Windows Server 2019
