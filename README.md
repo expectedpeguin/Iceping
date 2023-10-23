@@ -48,7 +48,7 @@ icerequest.exe HTTP <url> <method> <rps> <cps>
 - ``<rps>`` Number of requests per second (default: 1).
 - ``<cps>`` Number of connections per second (default: 1).
 
-## Methods
+## HTTP Methods
 - ``GET`` The GET method is used to retrieve a specified resource from the server. It is commonly employed to fetch data without causing any modifications. This method is widely used for safe and idempotent operations, allowing clients to access information without altering the server state.
 
 - ``POST`` With the POST method, you can submit data to the server, typically to create a new resource. This method is often utilized for sending data to be processed or stored. It allows clients to send data in the body of the request, enabling the server to handle and respond accordingly.
