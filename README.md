@@ -49,12 +49,17 @@ icerequest.exe HTTP <url> <method> <rps> <cps>
 - ``<cps>`` Number of connections per second (default: 1).
 
 ## Methods
-- GET
-- POST
-- PUT
-- DELETE
-- HEAD
-- PATCH
+- ``GET`` The GET method is used to retrieve a specified resource from the server. It is commonly employed to fetch data without causing any modifications. This method is widely used for safe and idempotent operations, allowing clients to access information without altering the server state.
+
+- ``POST`` With the POST method, you can submit data to the server, typically to create a new resource. This method is often utilized for sending data to be processed or stored. It allows clients to send data in the body of the request, enabling the server to handle and respond accordingly.
+
+- ``PUT`` The PUT method is employed to update or replace an existing resource on the server. It allows clients to send a complete representation of the resource they wish to update, enabling the server to replace the existing resource with the new representation.
+
+- ``DELETE`` As the name suggests, the DELETE method is used to remove a specified resource from the server. It allows clients to request the deletion of a resource, resulting in its removal from the server's storage.
+
+- ``HEAD`` This method is similar to the GET method, but it only retrieves the headers of a specified resource without fetching the entire content. It is often used to gather information about a resource, such as its availability or metadata, without transferring the actual data. This method can be useful for performing lightweight checks or retrieving essential information.
+
+- ``PATCH`` The PATCH method is employed to partially update a resource on the server. It allows clients to send modifications to a resource without replacing the entire representation. This method is useful when clients want to make specific changes to a resource, such as updating certain fields or applying incremental updates.
 
 ## Statistics
 IcePing provides statistics to help you analyze the results of your operations. For TCP connections, press Ctrl+C to view the ping statistics. For web HTTP/HTTPS requests, press Ctrl+C to view the request statistics.
