@@ -74,7 +74,7 @@ Contributions to IcePing are welcome. If you have any enhancements or additions 
 Thank you for your understanding, and I shall maintain professionalism in all further interactions. Should you require any further assistance, please do not hesitate to ask.
 
 ## System Requirements
-Iceping is written in C# .NET Framework 4 and is supported by the following versions of Windows:
+Iceping is written in C# .NET Framework 4.6 and is supported by the following versions of Windows:
 
 - Windows 7 SP1
 - Windows 8
