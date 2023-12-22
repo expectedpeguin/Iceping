@@ -43,7 +43,7 @@ iceping.exe TCP 1.1.1.1  53
 ## Web HTTP/HTTPS Request
 To perform web HTTP/HTTPS requests, use the command below:
 ```
-icerequest.exe HTTP <url> <method> <rps> <cps>
+iceping.exe HTTP <url> <method> <rps> <cps>
 ```
 - ``<url>`` The URL of the target endpoint.
 - ``<method>`` The HTTP method to use (e.g., GET, POST, DELETE).
